@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PrimeNos</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script type="text/javascript" src="PrimeFunctions.js"></script>
+</head>
+
+<h1>Prime Number Calculator</h1>
+
+<h2>Enter a number and check if it is prime, or use the buttons to navigate.</h2>
+
+<body>
+
+    <table class = "center">
+        <tr>
+            <th><h3>Previous</h3></th>
+            <th><h3>Current</h3></th>
+            <th><h3>Next</h3></th>
+        </tr>
+
+        <tr>
+            <td><h3 id = "previousNum">2</h3></td>
+            <td><h3 id = "currentNum">3</h3></td>
+            <td><h3 id = "nextNum">5</h3></td>
+        </tr>
+    </table>
+
+    <form id = "NumberEntry"> 
+        Enter a number:
+        <input type="int" id = "EnteredNum" size="20">
+    </form><br> 
+
+    <p id="NumberDescription">This is a prime number.</p>
+
+    <div id = "toggleButtons">
+        <button onclick="prevTwinButton()">Find Previous Twin</button>
+        <button onclick="previousButton()">Find Previous</button>
+        <button onclick="checkButton()">Check</button>
+        <button onclick="nextButton()">Find Next</button>
+        <button onclick="nextTwinButton()">Find Next Twin</button>
+    </div><br>
+
+    <div id = "toggleButtons">
+        <button onclick="visualiseButton()">Visualise this number</button>
+    </div><br><br><br>
+
+    <div id = "centeredImage">
+        <img id = "earth" src = "earth.png"
+                alt = "Image of Earth."
+                height = 800
+                width = 800>
+    </div>
+
+    <div id = "centeredImage">
+        <img id = "primePlanet" src = "red_dot.png"
+        alt = "A red dot."
+        height = 1
+        width = 1>
+    </div>
+
+    <!-- <div>
+        <input type="file" id="image-input" accept="image/*">
+        <img id="preview"></img>
+    </div> -->
+    <br>
+    <br>
+
+</body>
+
+</html>

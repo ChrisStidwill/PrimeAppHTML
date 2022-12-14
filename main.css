@@ -1,0 +1,92 @@
+body {
+    background-color: #95DEF0;
+}
+
+h1 {
+    color: #2E2C2F;
+    text-align: center;
+    background-color:darkgrey;
+}
+
+h2 {
+    color: #2E2C2F;
+    text-align: center;
+}
+
+h3 {
+    color: #2E2C2F;
+    text-align: center;
+}
+
+h4 {
+    color: #2E2C2F;
+    text-align: center;
+}
+
+p{
+    font-size:20px;
+}
+
+#previousNum{
+    font-size:40px;
+    color:hwb(280 17% 82% / 0.4)
+}
+
+#currentNum{
+    font-size:70px;
+}
+
+#nextNum{
+    font-size: 40px;
+    color:hwb(280 17% 82% / 0.4)
+}
+
+p {
+    color: #2E2C2F;
+    text-align: center;
+}
+
+form {
+    font-size:20px;
+    color: #2E2C2F;
+    text-align: center;
+}
+
+table {
+    /* background-color:; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+td{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:; */
+}
+
+#toggleButtons {
+    color: #2E2C2F;
+    text-align: center;
+}
+
+#earth {
+    text-align: center;
+    background-color: transparent;
+}
+
+/* #ad {
+    text-align: center;
+} */
+
+#centeredImage {
+    text-align: center;
+}
+
+#primePlanet {
+    text-align: center;
+}
